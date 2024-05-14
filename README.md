@@ -1,10 +1,8 @@
-# BlueOS-ping Survey
-# A simple extension for BlueOS intended for collection of time-sync'd sonar and GPS data. 
-Read more about this extension [here](https://discuss.bluerobotics.com/t/alpha-release-simple-ping2-survey-extension/15794)
-# Future feature ideas: 
- - Fix bar at top that scrolls down to hide
- - WP Survey speed parameter control on page?
- - User controlled confidence filter on live and/or logged data?
- - Show GPS speed over ground in table, HDOP
- - User configurable color gradient to depth mapping
- - Better mobile experience - scaling corner logos
+# Benthic Camera BlueOS Extension (working title: BenthicCam)
+# A simple extension for BlueOS intended for collection of geolocated benthic (seafloor) images
+Read more about the project [here](https://discuss.bluerobotics.com/t/rov-based-benthic-imaging-thoughts/14767)
+# More information
+- The code supports the following cameras:
+  - View Sheen 3.5x Zoom 12Mpx camera (VS-UAZ8003K)
+
+MORE INFO COMING SOON!
