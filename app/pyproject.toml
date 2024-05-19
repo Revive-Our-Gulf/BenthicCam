@@ -1,7 +1,7 @@
 [project]
-name = "simpleSurvey"
+name = "BenthicCam"
 version = "0.0.1"
-description = "BlueOS Simple ping survey"
+description = "BlueOS plugin for triggering sensor recording"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
