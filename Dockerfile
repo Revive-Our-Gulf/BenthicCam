@@ -19,7 +19,7 @@ LABEL permissions='\
     "5420/tcp": {}\
   },\
   "HostConfig": {\
-    "Binds":["/usr/blueos/extensions/ping-survey:/app/logs"],\
+    "Binds":["/usr/blueos/extensions/BenthicCam:/app/logs"],\
     "ExtraHosts": ["host.docker.internal:host-gateway"],\
     "PortBindings": {\
       "5420/tcp": [\
@@ -35,8 +35,8 @@ ARG AUTHOR
 ARG AUTHOR_EMAIL
 LABEL authors='[\
     {\
-        "name": "Tony White",\
-        "email": "tonywhite@bluerobotics.com"\
+        "name": "Peter Miles",\
+        "email": "peter.miles@reviveourgulf.org.nz"\
     }\
 ]'
 
@@ -50,9 +50,9 @@ LABEL company='{\
 LABEL type="tool"
 ARG REPO
 ARG OWNER
-LABEL readme='https://raw.githubusercontent.com/vshie/pingSurvey/{tag}/README.md'
+LABEL readme='https://https://github.com/Revive-Our-Gulf/BenthicCam/blob/main/README.md'
 LABEL links='{\
-        "source": "https://github.com/vshie/pingSurvey"\
+        "source": "https://https://github.com/Revive-Our-Gulf/BenthicCam"\
     }'
 LABEL requirements="core >= 1.1"
 
