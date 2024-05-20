@@ -24,3 +24,20 @@ To access the terminal (of the image) use the following command:
 ```
 docker run -it --entrypoint /bin/bash revive/benthic-cam:v0.1
 ```
+
+# Web Interface #
+
+To run the web interface, launch the docker terminal as follows: 
+
+```
+docker run -p 8080:8000 -it --entrypoint /bin/bash revive/bent
+hic-cam:v0.1
+```
+
+This exposes the "docker" port 8000 to the host port 8080. Next, navigate to the folder "app". Launch the testing script as follows:
+
+```
+python testing.py
+```
+
+This will kick off the site hosted within _flask_. The view the site, open up a web browser and navigate to _localhost:8080_.
