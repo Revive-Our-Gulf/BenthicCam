@@ -3,7 +3,7 @@
     "description":"This extension makes it easy to record camera and tracking data on a BlueRov",
     "icon":"mdi-map-plus",
     "company":"Blue Robotics",
-    "version":"1.0.1",
+    "version":"0.0.1",
     "webpage":"https://github.com/Revive-Our-Gulf/BenthicCam",
     "api":"https://github.com/bluerobotics/BlueOS-docker"
 }

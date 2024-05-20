@@ -11,3 +11,16 @@ docker build -t revive/benthic-cam:v0.1 .
 ```
 
 where _tag_ (-t) will take the image as "revive/benthic-cam" with version 0.1. Note that this needs to be run with _root_ permissions.
+
+
+The generated image can be verified using:
+
+```
+docker image ls
+```
+
+To access the terminal (of the image) use the following command:
+
+```
+docker run -it --entrypoint /bin/bash revive/benthic-cam:v0.1
+```
