@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+
+<class base="Camera">
+
+<namespace>NVL_App</namespace>
+<solution>CamControlLib</solution>
+<name>SheenCam</name>
+<description>A wrapper for the Sheen Camera system</description>
+
+<includes>
+    <include name="iostream" namespace="std" local="false" />
+    <include name="Camera.h" local="true" />
+</includes>
+
+<constructors>
+
+    <!-- Main Constructor -->
+    <constructor type="empty" inline="false" />
+</constructors>
+
+<methods>
+
+    <!-- Start Recording -->
+    <method section="Recording" modifiers="virtual" access="public" return="bool" name="StartRecord" description="Tells the camera to start recording" inline="false" />
+
+    <!-- Stop Recording -->
+    <method section="Recording" modifiers="virtual" access="public" return="bool" name="StopRecord" description="Tells the camera to start recording" inline="false" />
+
+    <!-- Is Recording -->
+    <method section="Recording" modifiers="virtual" access="public" return="bool" name="IsRecording" description="Retrieve the recording status" inline="false" />
+
+    <!-- Save State -->
+    <method section="Logging" modifiers="virtual" access="public" return="void" name="SaveState" description="Write elements of the camera state to disk" inline="false">
+        <parameter type="const string&" name="path" description="The path that we are writing to" />
+    </method>  
+
+</methods>
+
+<tests>
+    <test name="record_logic" description="Add the recorder logic" exception="false" />
+    <test name="state_save" description="Save the logic that we are dealing " />
+</tests> 
+
+</class>
